@@ -21,7 +21,6 @@ nav {
 }
 
 #searchBar {
-    transform: translate(50px);
     width: 40%;
     height: 30px;
     border-radius: 20px;
@@ -29,11 +28,10 @@ nav {
     padding: 20px;
 }
 
-#loginBtn {
+.loginBtn {
     background-color: #EC221F;
     font-weight: bold;
     color: white;
-    margin: 0 30px 0 20px;
     width: 150px;
     height: 40px;
     border: none;
@@ -295,4 +293,48 @@ form {
 
 .resetButton:active {
     background-color: darkgray
+}
+
+.loginForm {
+    padding: 40px;
+    border: solid 2px #EC221F;
+    margin-inline: auto;
+    width: 30%;
+}
+
+.loginForm label {
+    padding: 0;
+    display: flex;
+    justify-self: center;
+    width: 80%;
+    color: white;
+    text-align: left;
+    border: none;
+    /* background-color: #EC221F; */
+    font-size: medium;
+    font-weight: bold;
+}
+
+.loginForm input {
+    width: 80%;
+    height: 30px;
+    display: flex;
+    justify-self: center;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+#registerBtn {
+    margin-top: 50px;
+    width: 80%;
+    font-size: large;
+    height: 45px;
+}
+
+#loginBtn {
+    margin: 0 30px 0 20px;
+}
+
+#registerTitle {
+    margin-top: 0;
 }
