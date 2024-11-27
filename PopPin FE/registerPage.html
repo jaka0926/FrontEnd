@@ -9,20 +9,21 @@
 <body>
     <form action="" method="post" class="loginForm">
         <h1 id="registerTitle">회원가입</h1>
-        <label for="userName">ID</label>
-        <input type="text" name="" id="userName" placeholder="sherlock_221b">
+        <label for="userName">ID*</label>
+        <input type="text" name="" id="userName" placeholder="sherlock_221b" required>
 
-        <label for="email">이메일</label>
-        <input type="email" name="" id="email" placeholder="sherlock_221b@bbc.com">
+        <label for="email">이메일*</label>
+        <input type="email" name="" id="email" placeholder="sherlock_221b@bbc.com" required>
 
         <label for="nickName">닉네임</label>
         <input type="text" name="" id="nickName" placeholder="Holmes">
 
-        <label for="password">비밀번호</label>
-        <input type="password" name="" id="password" placeholder="">
+        <label for="password">비밀번호*</label>
+        <input type="password" name="" id="password" required>
 
-        <label for="confirmPassword">비밀번호 확인</label>
-        <input type="password" name="" id="confirmPassword">
+        <label for="confirmPassword">비밀번호 확인*</label>
+        <input type="password" name="" id="confirmPassword" required>
+        <p>이미 가입하셨나요? <a href="" style="text-decoration: underline;"><strong>로그인하기</strong></a></p> 
         <br>
         <button type="submit" class="loginBtn" id="registerBtn">가입 완료</button>
     </form>

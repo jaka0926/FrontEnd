@@ -29,6 +29,7 @@ nav {
 }
 
 .loginBtn {
+    cursor: pointer;
     background-color: #EC221F;
     font-weight: bold;
     color: white;
@@ -321,11 +322,11 @@ form {
     display: flex;
     justify-self: center;
     padding: 0;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 #registerBtn {
-    margin-top: 50px;
+    margin-top: 20px;
     width: 80%;
     font-size: large;
     height: 45px;
