@@ -411,3 +411,26 @@ form {
     height: auto;
     padding: 0;
 }
+
+table {
+    background-color: white;
+    color: black;
+    border: #2c2c2c;
+    border-collapse: collapse; /* Ensures a single border */
+    border-width: 5px;
+    width: 50%; /* Optional, for full-width table */
+    min-width: 500px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+th, td {
+    border: 5px solid #2c2c2c; /* Single line border for cells */
+    padding: 8px;
+    /* text-align: left; Optional, for text alignment */
+}
+
+th {
+    background-color: #EC221F;
+    color: white;
+}
