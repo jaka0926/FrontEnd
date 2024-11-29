@@ -41,7 +41,7 @@ nav {
     color: white;
     width: auto;
     border: none;
-    border-radius: 20px;
+    border-radius: 50px;
     padding: 10px 20px 10px 20px;
 }
 
@@ -307,6 +307,7 @@ form {
 }
 
 .loginForm {
+    position: relative;
     padding: 40px;
     border: solid 2px #EC221F;
     margin-inline: auto;
@@ -375,9 +376,12 @@ form {
 
 #editBtn {
     margin-top: 50px;
+    background-color: transparent;
+    border: solid white 2px;
 }
 
 .listBtn {
+    padding-left: 230px;
     display: flex;
     justify-content: center;
     column-gap: 50px;
@@ -433,4 +437,17 @@ th, td {
 th {
     background-color: #EC221F;
     color: white;
+}
+
+#storeRegButton {
+    width: 220px;
+    margin: 0;
+}
+
+#backButton {
+    position: absolute;
+    width: 100%;
+    left: 20px;
+    top: 20px;
+    text-align: left;
 }

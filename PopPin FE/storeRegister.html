@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poppin</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form action="" method="post" class="loginForm">
+        <a href="myPage.html" id="backButton"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
+          </svg>돌아가기</a>
+        <h1 id="registerTitle">팝업 스토어 등록</h1>
+        <label for="userName">스토어 이름*</label>
+        <input type="text" value="" id="userName" placeholder="오징어 게임 스토어" required>
+
+        <label for="location">주소*</label>
+        <input type="text" value="" id="location" placeholder="서울 송파구 ㅇㅇ동" required>
+
+        <label for="nickName">설명*</label>
+        <input type="text" value="" id="nickName" placeholder="시즌2 프리미어를 앞두고..." required>
+
+        <label for="startDate">시작날짜*</label>
+        <input type="date" value="" id="startDatestartDate" required>
+
+        <label for="endDate">종료날짜</label>
+        <input type="date" value="" id="endDate">
+
+        <label for="image">사진 업로드</label>
+        <input type="file" value="" id="image" required>
+        <br>
+        <button type="submit" class="loginBtn" id="registerBtn">등록 완료</button>
+    </form>
+</body>
+</html>
